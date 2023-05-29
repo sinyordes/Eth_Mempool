@@ -2,9 +2,6 @@ const Web3 = require('web3');
 require('dotenv').config();
 const ethers = require('ethers');
 
-
-
-
 async function main() {
     const web3 = new Web3(new Web3.providers.WebsocketProvider(process.env.WS_URL));
 
